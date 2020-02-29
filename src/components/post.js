@@ -23,7 +23,10 @@ const Post = ({
   const previousLabel = previousPost && previousPost.frontmatter.title
   const nextPath = nextPost && nextPost.frontmatter.path
   const nextLabel = nextPost && nextPost.frontmatter.title
+  const options = {year: "numeric", month: "long", day: "numeric"};
 
+  const localeDate = new Date(date).toLocaleDateString('fr-FR', options)
+  console.log(localeDate)
   return (
     <div className={style.post}>
       <div className={style.postContent}>
@@ -31,7 +34,7 @@ const Post = ({
           {excerpt ? <Link to={path}>{title}</Link> : title}
         </h1>
         <div className={style.meta}>
-          {date} {author && <>— Écrit par {author}</>}
+          {localeDate} {author && <>— Écrit par {author}</>}
           {tags ? (
             <div className={style.tags}>
               {tags.map(tag => (

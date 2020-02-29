@@ -23,7 +23,7 @@ module.exports = {
     mainMenu: [
       {
         title: 'À propos',
-        path: '/about',
+        path: '/a-propos',
       },
     ],
   },
