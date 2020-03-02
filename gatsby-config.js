@@ -25,6 +25,10 @@ module.exports = {
         title: 'À propos',
         path: '/a-propos',
       },
+      {
+        title: 'Mes projets',
+        path: '/projets',
+      },
     ],
   },
   plugins: [
