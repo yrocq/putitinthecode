@@ -1,11 +1,9 @@
 ---
-title: "À propos"
+title: "Mes projets"
 date: "2020-02-29"
 author: "Yann"
 path: "/projets"
 ---
-
-# Mes projets
 
 ## LaunchBar-LastPass
 
