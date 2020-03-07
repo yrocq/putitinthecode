@@ -17,3 +17,5 @@ J’ai donc développé une action pour [LaunchBar](https://www.obdev.at/product
 Vous pouvez récupérer une première version fonctionnelle de ce projet sur mon compte [GitHub](https://github.com/yrocq/launchbar-lastpass). 
 
 L’interface utilisateur est encore en chantier. Je posterai un guide d’utilisation et une archive à télécharger dès que la peinture sera sèche.
+
+**Mise à jour du 7 mars 2020 : J’ai finalement abandonné Lastpass pour [1Password](https://1password.com), bien mieux intégré à Mac OS, et LaunchBar pour [Alfred](https://www.alfredapp.com), beaucoup plus extensible. Ce projet restera donc à l’état de preuve de concept.**
