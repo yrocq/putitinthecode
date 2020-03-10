@@ -119,5 +119,13 @@ module.exports = {
         icon: `src/images/hello-icon.png`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '1',
+        matomoUrl: 'https://matomo.yr.lc',
+        siteUrl: 'https://metsledanslecode.com'
+      }
+    }
   ],
 }
